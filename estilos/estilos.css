@@ -1,0 +1,147 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color:#DD969C;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+    z-index: 1;
+    position: fixed;
+    top: 0;
+    display: flex;
+    align-items: center;
+}
+
+header .logo img {
+    max-width: 50px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+a:focus {
+    outline: 1px solid #c4c3c6;
+}
+
+.titulo-nav h1 {
+    margin: 0;
+}
+
+
+#bienvenida,
+#clases,
+#horario,
+#entrenadores,
+#contacto {
+    padding: 60px 20px;
+    margin-top: 60px;
+    width: 100%;
+}
+
+.clase-item1 {
+    float: left;
+    background-color: #f0f0f0;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+.clase-item2 {
+    float: right;
+    background-color: #f0f0f0;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+.horario-table {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.horario-table table {
+    width: 100%;
+}
+
+.horario-table th,
+.horario-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.horario-table th {
+    background-color: #DD969C;
+    color: #fff;
+}
+
+.entrenador-item {
+    background-color: #f0f0f0;
+    margin-bottom: 20px;
+    padding: 10px;
+    text-align: center;
+}
+
+.entrenador-item img {
+    max-width: 30%;
+    height: auto;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: #EA899A;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+}
+
+#contenedor-principal {
+    position: relative;
+    top: 20px;
+    left: 20px;
+}
+
+#promocion-banner {
+    position: sticky;
+    top: 150px;
+    width: 100%;
+    background-color: #ffd700;
+    padding: 15px;
+    text-align: center;
+    color: #333;
+}
+
+.btn-promocion {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    display: inline-block;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.btn-promocion:hover {
+    background-color: #555;
+}
